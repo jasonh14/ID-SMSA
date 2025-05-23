@@ -1,4 +1,4 @@
-# PRDECT-ID: Indonesian product reviews dataset for emotions classification tasks
+# ID-SMSA: Indonesian stock market dataset for sentiment analysis
 
 This repository contains datasets related to our paper [PRDECT-ID: Indonesian product reviews dataset for emotions classification tasks](https://doi.org/10.1016/j.dib.2022.108554). This dataset is also available on the [Mendeley Data website](https://data.mendeley.com/datasets/574v66hf2v/1).
 
