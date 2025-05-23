@@ -11,11 +11,15 @@ This repository contains datasets related to our paper [ID-SMSA: Indonesian stoc
 
 ## Data Annotation
 
+<!-- Change this -->
+
 - Each product review is annotated with a single emotion with [Shaver’s emotions model](https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-839X.00086).
 - The annotator labels each product review based on the customers' review content.
 - The annotation process follows the emotions annotation criteria created by lecturers and experts in clinical psychology.
 
 ## List of Attribute
+
+<!-- Change this -->
 
 Although this work focuses on product reviews, other details related to the product review are captured, such as Price, Number Sold, and Total Review. The list of attributes is shown in the Table below.
 
@@ -35,13 +39,19 @@ Although this work focuses on product reviews, other details related to the prod
 
 ## Citation
 
+<!-- Change this -->
+
 If you use this dataset in a scientific publication, we would appreciate using the following citations:
 
 ### Plain Text
 
+<!-- Change this -->
+
 Sutoyo, R., Achmad, S., Chowanda, A., Andangsari, E. W., & Isa, S. M. (2022). PRDECT-ID: Indonesian product reviews dataset for emotions classification tasks. _Data in Brief_, _44_, 108554.
 
 ### BibTeX
+
+<!-- Change this -->
 
 ```
 @article{SUTOYO2022108554,
@@ -60,5 +70,7 @@ abstract = {Recognizing emotions is vital in communication. Emotions convey addi
 ```
 
 ## Poster
+
+<!-- Change this -->
 
 ![alt text](https://github.com/rhiosutoyo/PRDECT-ID-Indonesian-Product-Reviews-Dataset/blob/main/Assets/PRDECT-ID_Poster.png?raw=true)
