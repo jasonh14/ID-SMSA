@@ -23,23 +23,17 @@ This repository contains datasets related to our paper [ID-SMSA: Indonesian stoc
 
 ## List of Attribute
 
-<!-- Change this -->
+This dataset focuses on Indonesian stock market discussions extracted from X (formerly Twitter). Each tweet is labeled for sentiment analysis, and additional metadata is included to support deeper insights such as virality and timing. The list of attributes is shown in the table below.
 
-Although this work focuses on product reviews, other details related to the product review are captured, such as Price, Number Sold, and Total Review. The list of attributes is shown in the Table below.
-
-| Attribute       | Description                                              |
-| --------------- | -------------------------------------------------------- |
-| Category        | Product classification by category                       |
-| Product Name    | Name of the reviewed product                             |
-| Location        | City name of the shop or product seller                  |
-| Price           | Price in IDR of the reviewed product                     |
-| Overall Rating  | Overall product rating                                   |
-| Number Sold     | Total number of products sold                            |
-| Total Reviews   | Total number of reviews given by the customers           |
-| Customer Rating | Product rating (range 1 to 5) from the customers         |
-| Customer Review | Product reviews given to the product by the customers    |
-| Sentiment       | Sentiment labels (i.e., Positive, Negative)              |
-| Emotion         | Emotion labels (i.e., Anger, Fear, Happy, Love, Sadness) |
+| Attribute      | Description                                  |
+| -------------- | -------------------------------------------- |
+| Tweet Date     | The date and time when the tweet was created |
+| Sentence       | The complete text content of the tweet       |
+| Quote Count    | Number of times the tweet has been quoted    |
+| Reply Count    | Number of replies the tweet has received     |
+| Retweet Count  | Number of times the tweet has been retweeted |
+| Favorite Count | Number of times the tweet has been liked     |
+| Sentiment      | Total number of products sold                |
 
 ## Citation
 
@@ -51,25 +45,25 @@ If you use this dataset in a scientific publication, we would appreciate using t
 
 <!-- Change this -->
 
-Sutoyo, R., Achmad, S., Chowanda, A., Andangsari, E. W., & Isa, S. M. (2022). PRDECT-ID: Indonesian product reviews dataset for emotions classification tasks. _Data in Brief_, _44_, 108554.
+Hartanto, J., Liundi, T., Sutoyo, R., & Andangsari, E. W. (2025). ID-SMSA: Indonesian stock market dataset for sentiment analysis. _Data in Brief_, 60, 111571.
 
 ### BibTeX
 
 <!-- Change this -->
 
 ```
-@article{SUTOYO2022108554,
-title = {PRDECT-ID: Indonesian product reviews dataset for emotions classification tasks},
+@article{HARTANTO2025111571,
+title = {ID-SMSA: Indonesian stock market dataset for sentiment analysis},
 journal = {Data in Brief},
-volume = {44},
-pages = {108554},
-year = {2022},
+volume = {60},
+pages = {111571},
+year = {2025},
 issn = {2352-3409},
-doi = {https://doi.org/10.1016/j.dib.2022.108554},
-url = {https://www.sciencedirect.com/science/article/pii/S2352340922007612},
-author = {Rhio Sutoyo and Said Achmad and Andry Chowanda and Esther Widhi Andangsari and Sani M. Isa},
-keywords = {Natural language processing, Text processing, Text mining, Emotions classification, Sentiment analysis},
-abstract = {Recognizing emotions is vital in communication. Emotions convey additional meanings to the communication process. Nowadays, people can communicate their emotions on many platforms; one is the product review. Product reviews in the online platform are an important element that affects customers’ buying decisions. Hence, it is essential to recognize emotions from the product reviews. Emotions recognition from the product reviews can be done automatically using a machine or deep learning algorithm. Dataset can be considered as the fuel to model the recognizer. However, only a limited dataset exists in recognizing emotions from the product reviews, particularly in a local language. This research contributes to the dataset collection of 5400 product reviews in Indonesian. It was carefully curated from various (29) product categories, annotated with five emotions, and verified by an expert in clinical psychology. The dataset supports an innovative process to build automatic emotion classification on product reviews.}
+doi = {https://doi.org/10.1016/j.dib.2025.111571},
+url = {https://www.sciencedirect.com/science/article/pii/S2352340925003038},
+author = {Jason Hartanto and Timothy Liundi and Rhio Sutoyo and Esther Widhi Andangsari},
+keywords = {Stock market, Natural language processing, Text processing, Text mining, Sentiment analysis},
+abstract = {Social media has impacted daily life, affecting people’s habits regarding accessing and sharing information. Among the platforms, X (formerly Twitter) gives users the freedom of speech to express their subjects and topics. Hence, users express their opinions on every topic, from light-hearted to heavy topics such as politics and the economy. This vast opinion from users creates a valuable resource for research. This paper presents the Indonesian Stock Market Dataset for Sentiment Analysis (ID-SMSA), a collection of 3288 tweets discussing the top 10 largest market caps in the Indonesian stock market as of March 2023. The dataset is in Indonesian and an English translated version is provided, making it the first Indonesian-language dataset discussing the Indonesian stock market. Human annotators labelled each tweet as positive, neutral, or negative based on baseline annotation characteristics criteria created and reviewed by an expert in clinical psychology. A voting system determines which tweets to include in the dataset. This creates a consistent dataset that reflects clear and agreed-upon sentiments and removes ambiguous and contradictory data. The voted tweets include 2339 positive, 999 neutral, and 1025 negative sentiments. This dataset supports research into Indonesian stock market growth and the role of social media in financial discussions.}
 }
 ```
 
