@@ -13,9 +13,15 @@ This repository contains datasets related to our paper [ID-SMSA: Indonesian stoc
 
 <!-- Change this -->
 
-- Each product review is annotated with a single emotion with [Shaver’s emotions model](https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-839X.00086).
-- The annotator labels each product review based on the customers' review content.
-- The annotation process follows the emotions annotation criteria created by lecturers and experts in clinical psychology.
+- Each tweet in the dataset was manually annotated with a single sentiment label: positive, neutral, or negative.
+
+- The annotation process was based on clearly defined sentiment criteria developed by the authors and reviewed by an expert in clinical psychology. These criteria included indicators such as praise, optimism, or good financial news for positive sentiment; disappointment, risk, or negative news for negative sentiment; and factual or sentiment-neutral statements for neutral sentiment.
+
+- Two annotators labeled the tweets independently. Tweets with matching labels were retained, while those with differing labels were excluded to ensure consistency and reduce ambiguity.
+
+- A Cohen’s Kappa score (0.779, indicating substantial agreement) were used to verify inter-annotator reliability.
+
+- Anonymization was applied during preprocessing, replacing sensitive elements like usernames, URLs, and hashtags to protect user privacy.
 
 ## List of Attribute
 
