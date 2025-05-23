@@ -71,4 +71,4 @@ abstract = {Social media has impacted daily life, affecting people’s habits re
 
 <!-- Change this -->
 
-![alt text](https://github.com/jasonh14/ID-SMSA/blob/main/Asset/ID-SMSA_Poster.png?raw=true)
+![alt text](https://github.com/jasonh14/ID-SMSA/blob/main/Asset/ID-SMSA_Paper_Poster.png?raw=true)
