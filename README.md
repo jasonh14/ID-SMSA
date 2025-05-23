@@ -11,8 +11,6 @@ This repository contains datasets related to our paper [ID-SMSA: Indonesian stoc
 
 ## Data Annotation
 
-<!-- Change this -->
-
 - Each tweet in the dataset was manually annotated with a single sentiment label: positive, neutral, or negative.
 
 - The annotation process was based on clearly defined sentiment criteria developed by the authors and reviewed by an expert in clinical psychology. These criteria included indicators such as praise, optimism, or good financial news for positive sentiment; disappointment, risk, or negative news for negative sentiment; and factual or sentiment-neutral statements for neutral sentiment.
