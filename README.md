@@ -33,7 +33,7 @@ This dataset focuses on Indonesian stock market discussions extracted from X (fo
 | Reply Count    | Number of replies the tweet has received     |
 | Retweet Count  | Number of times the tweet has been retweeted |
 | Favorite Count | Number of times the tweet has been liked     |
-| Sentiment      | Total number of products sold                |
+| Sentiment      | Sentiment labels (i.e., Positive, Negative)  |
 
 ## Citation
 
